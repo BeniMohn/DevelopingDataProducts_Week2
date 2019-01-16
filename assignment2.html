@@ -145,7 +145,17 @@ $(document).ready(function () {
 <div id="information" class="section level2">
 <h2>Information</h2>
 <p>This Markdown file was created on the <strong>16th of January 2019</strong> by <strong>Benjamin Mohn</strong>.</p>
-<p>The map is showing germany and some of the most famous sights one can now such as: 1. Brandenburger Tor (Berlin) 2. Fernsehturm (Berlin) 3. Reeperbahn (Hamburg) 4. Schloss Neuschwanstein (Bayern) 5. Brocken (Sachen Anhalt) 6. Koelner Dom (Nordrhein-Westfalen) 7. Gespenster Wald Nienhagen (Mecklenburg-Vorpommern) 8. Zeche Zollberein (Nordrhein-Westfalen)</p>
+<p>The map is showing germany and some of the most famous sights one can now such as:</p>
+<ol style="list-style-type: decimal">
+<li>Brandenburger Tor (Berlin)</li>
+<li>Fernsehturm (Berlin)</li>
+<li>Reeperbahn (Hamburg)</li>
+<li>Schloss Neuschwanstein (Bayern)</li>
+<li>Brocken (Sachen Anhalt)</li>
+<li>Koelner Dom (Nordrhein-Westfalen)</li>
+<li>Gespenster Wald Nienhagen (Mecklenburg-Vorpommern)</li>
+<li>Zeche Zollberein (Nordrhein-Westfalen)</li>
+</ol>
 <pre class="r"><code>point_df &lt;- data.frame('lat' = c(52.516231, 
                                  52.520803, 
                                  53.549853, 
@@ -178,8 +188,8 @@ leaflet() %&gt;%
 addProviderTiles(providers$Stamen.Toner) %&gt;%
 setView(lng = 10.478087, lat = 51.295872, zoom = 5) %&gt;%
 addAwesomeMarkers(popup=popups, icon=icons)</code></pre>
-<div id="htmlwidget-261a14b33992a6e98312" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-261a14b33992a6e98312">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Stamen.Toner",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addAwesomeMarkers","args":[[52.516231,52.520803,53.549853,47.55761,51.799742,50.941326,54.162779,51.490034],[13.377724,13.409269,9.965406,10.749597,10.61573,6.957722,11.940504,7.041685],{"icon":"camera","markerColor":"red","iconColor":"yellow","spin":false,"squareMarker":false,"iconRotate":0,"font":"monospace","prefix":"glyphicon"},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Brandenburger Tor (Berlin)","Fernsehturm (Berlin)","Reeperbahn (Hamburg)","Schloss Neuschwanstein (Bavaria)","Brocken (Saxony-Anhalt)","Koelner Dom (North Rhine-Westphalia)","Gespenster Wald Nienhagen (Mecklenburg-Vorpommern)","Zeche Zollberein (North Rhine-Westphalia)"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"setView":[[51.295872,10.478087],5,[]],"limits":{"lat":[47.55761,54.162779],"lng":[6.957722,13.409269]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-573795e8f98e040dfd07" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-573795e8f98e040dfd07">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Stamen.Toner",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addAwesomeMarkers","args":[[52.516231,52.520803,53.549853,47.55761,51.799742,50.941326,54.162779,51.490034],[13.377724,13.409269,9.965406,10.749597,10.61573,6.957722,11.940504,7.041685],{"icon":"camera","markerColor":"red","iconColor":"yellow","spin":false,"squareMarker":false,"iconRotate":0,"font":"monospace","prefix":"glyphicon"},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Brandenburger Tor (Berlin)","Fernsehturm (Berlin)","Reeperbahn (Hamburg)","Schloss Neuschwanstein (Bavaria)","Brocken (Saxony-Anhalt)","Koelner Dom (North Rhine-Westphalia)","Gespenster Wald Nienhagen (Mecklenburg-Vorpommern)","Zeche Zollberein (North Rhine-Westphalia)"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"setView":[[51.295872,10.478087],5,[]],"limits":{"lat":[47.55761,54.162779],"lng":[6.957722,13.409269]}},"evals":[],"jsHooks":[]}</script>
 </div>
 
 
