@@ -16,14 +16,15 @@ This Markdown file was created on the **16th of January 2019** by **Benjamin Moh
 
 The map is showing germany and some of the most famous sights one can now such as: 
 
-1. Brandenburger Tor (Berlin)
-2. Fernsehturm (Berlin)
-3. Reeperbahn (Hamburg)
-4. Schloss Neuschwanstein (Bayern)
-5. Brocken (Sachen Anhalt)
-6. Koelner Dom (Nordrhein-Westfalen)
-7. Gespenster Wald Nienhagen (Mecklenburg-Vorpommern)
-8. Zeche Zollberein (Nordrhein-Westfalen)
+ 1. Brandenburger Tor (Berlin)
+ 2. Fernsehturm (Berlin)
+ 3. Reeperbahn (Hamburg)
+ 4. Schloss Neuschwanstein (Bayern)
+ 5. Brocken (Sachen Anhalt)
+ 6. Koelner Dom (Nordrhein-Westfalen)
+ 7. Gespenster Wald Nienhagen (Mecklenburg-Vorpommern)
+ 8. Zeche Zollberein (Nordrhein-Westfalen)
+
 ```{r libraries, echo=FALSE}
 library(leaflet)
 ```
